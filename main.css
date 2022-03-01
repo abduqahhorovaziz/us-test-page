@@ -1,0 +1,142 @@
+body {
+  font-size: 20px;
+}
+
+body .section__one__main {
+  padding-left: 20px;
+}
+
+body .section__one__main .text-row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+body .section__one__main .text-row .col-md-12 h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+body .section__one__main .section__one .col-md-6:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-left: 60px;
+  padding-right: 30px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+body .section__one__main .section__one .col-md-6:nth-child(2) {
+  max-width: 50%;
+  min-height: 450px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+}
+
+body .section__one__main .section__one .col-md-6:nth-child(2) .image__wrap {
+  height: 100%;
+  width: 100%;
+}
+
+body .section__one__main .section__one .col-md-6:nth-child(2) .image__wrap .image {
+  height: 100%;
+  background-image: url(us-flag.png);
+  background-size: cover;
+  background-position: center;
+}
+
+body .section__two__main .row .col-md-12 {
+  padding: 60px;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+body .section__two__main .row .col-md-12 .list-title {
+  font-size: 27px;
+  font-weight: 300;
+}
+
+body .section__three__main {
+  padding-right: 20px;
+}
+
+body .section__three__main .section__three .col-md-6:nth-child(1) {
+  max-width: 50%;
+  min-height: 540px;
+  padding-left: 0px;
+  padding-top: 0;
+}
+
+body .section__three__main .section__three .col-md-6:nth-child(1) .image-wrap {
+  height: 100%;
+  width: 100%;
+}
+
+body .section__three__main .section__three .col-md-6:nth-child(1) .image-wrap .image {
+  height: 100%;
+  background-image: url(us-medical-exam-com.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+body .section__three__main .section__three .col-md-6:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  text-align: justify;
+  padding-right: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+
+body .section__three__main .section__three .col-md-6:nth-child(2) .content h4 {
+  text-align: left;
+  font-weight: 400;
+  font-size: 35px;
+}
+
+body .section__three__main .section__three .col-md-6:nth-child(2) .list-title {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+body .section__four__main .section__four {
+  background-color: #0092c6;
+  text-align: center;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+body .section__four__main .section__four .col-md-12 h2 {
+  font-size: 28px;
+}
+
+body .section__five__main .section__five .col-md-12 {
+  padding: 60px;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: justify;
+}
+/*# sourceMappingURL=main.css.map */
