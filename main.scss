@@ -1,200 +1,492 @@
 body {
-    font-size: 20px;
-    .section__one__main {
-        padding-left: 20px;
-        .text-row {
-            padding-top: 50px;
-            padding-bottom: 50px;
-            padding-left: 35px;
-            padding-right: 35px;
-            .col-md-12 {
-                h1 {
-                    text-align: center;
-                    font-weight: 400;
-                    font-size: 35px;
-                }
-            }
+  font-size: 20px;
+  .section__one__main {
+    padding-left: 20px;
+    .text-row {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 35px;
+      padding-right: 35px;
+      .col-md-12 {
+        h1 {
+          text-align: center;
+          font-weight: 400;
+          font-size: 35px;
         }
-        .section__one {
-            .col-md-6:nth-child(1) {
-                display: flex;
-                align-items: center;
-                justify-content: flex-end;
-                padding-left: 60px;
-                padding-right: 30px;
-                text-align: justify;
-                font-size: 24px;
-            }
-            .col-md-6:nth-child(2) {
-                max-width: 50%;
-                min-height: 650px;
-                padding-left: 0;
-                padding-right: 0;
-                padding-top: 0;
-                .image__wrap {
-                    height: 100%;
-                    width: 100%;
-                    .image {
-                        height: 100%;
-                        background-image: url(us-flag.png);
-                        background-size: cover;
-                        background-position: center;
-                    }
-                }
-            }
-        }
+      }
     }
-
-    .section__two__main {
-        .row {
-            .col-md-12 {
-                padding: 60px;
-                padding-left: 150px;
-                padding-right: 150px;
-                text-align: justify;
-                font-size: 24px;
-                .list-title {
-                    font-size: 27px;
-                    font-weight: 300;
-                }
-            }
+    .section__one {
+      .col-lg-6:nth-child(1) {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-left: 60px;
+        padding-right: 30px;
+        text-align: justify;
+        font-size: 24px;
+      }
+      .col-lg-6:nth-child(2) {
+        max-width: 50%;
+        min-height: 650px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+        .image__wrap {
+          height: 100%;
+          width: 100%;
+          .image {
+            height: 100%;
+            background-image: url(us-flag.png);
+            background-size: cover;
+            background-position: center;
+          }
         }
+      }
     }
+  }
 
-    .section__three__main {
-        padding-right: 20px;
-        .section__three {
-            .col-md-6:nth-child(1) {
-                max-width: 50%;
-                min-height: 540px;
-                padding-left: 0px;
-                padding-top: 0;
-                .image-wrap {
-                    height: 100%;
-                    width: 100%;
-                    .image {
-                        height: 100%;
-                        background-image: url(us-medical-exam-com.png);
-                        background-size: cover;
-                        background-position: center center;
-                    }
-                }
-            }
-            .col-md-6:nth-child(2) {
-                display: flex;
-                align-items: center;
-                justify-content: flex-start;
-                text-align: justify;
-
-                padding-right: 60px;
-                padding-top: 30px;
-                padding-bottom: 30px;
-
-                font-size: 20px;
-
-                .content{
-                    h4{
-                        text-align: left;
-                        font-weight: 500;
-                        font-size: 35px;
-                    }
-                }
-                .list-title {
-                    font-size: 27px;
-                    font-weight: 400;
-                }
-            }
-        }
-    }
-
-    .section__four__main {
-        .section__four {
-            background-color: #0092c6;
-            text-align: center;
-            color: white;
-            padding-top: 80px;
-            padding-bottom: 80px;
-            padding-left: 150px;
-            padding-right: 150px;
-            .col-md-12 {
-                h2 {
-                    font-size: 35px;
-                    font-weight: 400;
-                }
-            }
-        }
-    }
-
-    .section__five__main{
-        .section__five{
-            .col-md-12{
-                padding: 60px;
-                padding-left: 150px;
-                padding-right: 150px;
-                text-align: justify;
-                font-size: 24px;
-            }
-        }
-    }
-
-    
-.section__address__main {
-    .section__address {
-        background-color: #0092c6;
-        text-align: center;
-        color: white;
-        padding-top: 80px;
-        padding-bottom: 80px;
+  .section__two__main {
+    .row {
+      .col-lg-12 {
+        padding: 60px;
         padding-left: 150px;
         padding-right: 150px;
+        text-align: justify;
+        font-size: 24px;
+        .list-title {
+          font-size: 27px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
+  .section__three__main {
+    padding-right: 20px;
+    .section__three {
+      .col-lg-6:nth-child(1) {
+        max-width: 50%;
+        min-height: 540px;
+        padding-left: 0px;
+        padding-top: 0;
+        .image-wrap {
+          height: 100%;
+          width: 100%;
+          .image {
+            height: 100%;
+            background-image: url(us-medical-exam-com.png);
+            background-size: cover;
+            background-position: center center;
+          }
+        }
+      }
+      .col-lg-6:nth-child(2) {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: justify;
+
+        padding-right: 60px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        font-size: 20px;
+
+        .content {
+          h4 {
+            text-align: left;
+            font-weight: 500;
+            font-size: 35px;
+          }
+        }
+        .list-title {
+          font-size: 27px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+
+  .section__four__main {
+    .section__four {
+      background-color: #0092c6;
+      text-align: center;
+      color: white;
+      padding-top: 80px;
+      padding-bottom: 80px;
+      padding-left: 150px;
+      padding-right: 150px;
+      .col-md-12 {
+        h2 {
+          font-size: 35px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+
+  .section__five__main {
+    .section__five {
+      .col-md-12 {
+        padding: 60px;
+        padding-left: 150px;
+        padding-right: 150px;
+        text-align: justify;
+        font-size: 24px;
+      }
+    }
+  }
+
+  .section__address__main {
+    .section__address {
+      background-color: #0092c6;
+      text-align: center;
+      color: white;
+      padding-top: 80px;
+      padding-bottom: 80px;
+      padding-left: 150px;
+      padding-right: 150px;
+      .col-md-12 {
+        h4 {
+          font-size: 35px;
+          font-weight: 400;
+        }
+      }
+    }
+    .section__address__two {
+      margin-top: 50px;
+      padding-left: 70px;
+      padding-right: 70px;
+    }
+    .section__address__text {
+      padding-left: 60px;
+      padding-right: 60px;
+      margin-bottom: 50px;
+
+      .col-md-12 {
+        .text-center {
+          font-size: 35px;
+          font-weight: 400;
+          margin-bottom: 30px;
+        }
+      }
+    }
+    .section__address__map {
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-bottom: 60px;
+      overflow: hidden;
+      .col-md-12 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .section__address__map__two {
+      overflow: hidden;
+      padding-bottom: 60px;
+      .col-lg-6 {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        img {
+          width: 90%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    .section__one__main {
+      padding-left: 10px;
+      
+      .text-row {
+        padding-left: 0;
+        padding-right: 0;
+
         .col-md-12 {
+          h1 {
+            font-size: 24px;
+            font-weight: 500;
+          }
+        }
+      }
+      .section__one {
+        .col-lg-6:nth-child(1) {
+          justify-content: center;
+          padding-left: 15px;
+          padding-right: 15px;
+          font-size: 18px;
+        }
+        .col-lg-6:nth-child(2) {
+          max-width: 100%;
+          min-height: 350px;
+          margin-bottom: 30px;
+        }
+      }
+    }
+    .section__two__main {
+      .row {
+        .col-lg-12 {
+          border-top: 1px solid #ccc;
+          padding: 10px;
+          padding-top: 30px;
+          font-size: 18px;
+          .list-title {
+            font-size: 19px;
+            text-align: justify;
+          }
+        }
+      }
+    }
+    .section__three__main {
+      overflow: hidden;
+
+      padding-right: 0;
+      .section__three {
+        .col-lg-6:nth-child(1) {
+          max-width: 100%;
+          min-height: 350px;
+        }
+        .col-lg-6:nth-child(2) {
+          justify-content: center;
+          padding-right: 25px;
+          padding-left: 15px;
+          font-size: 18px;
+
+          .content {
             h4 {
-                font-size: 35px;
-                font-weight: 400;
+              text-align: center;
+              font-size: 24px;
             }
+          }
+          .list-title {
+            font-size: 18px;
+            font-weight: 500;
+          }
         }
+      }
     }
-    .section__address__text{
-        padding-left: 60px;
-        padding-right: 60px;
-        margin-bottom: 50px;
+    .section__four__main {
+      .section__four {
+        padding-left: 20px;
+        padding-right: 20px;
+        .col-md-12 {
+          h2 {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+    .section__five__main {
+      .section__five {
+        .col-md-12 {
+          padding: 10px;
+          font-size: 18px;
+        }
+      }
+    }
+    .section__address__main {
+      .section__address {
+        padding-left: 20px;
+        padding-right: 20px;
+        .col-md-12 {
+          h4 {
+            font-size: 24px;
+          }
+        }
+      }
+      .section__address__two {
+        margin-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 18px;
+        text-align: justify;
 
-        .col-md-12{
-            .text-center{
-                font-size: 35px;
-                font-weight: 400;
+        .address__text {
+          text-align: justify;
+        }
+      }
+      .section__address__text {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 18px;
+        .col-md-12 {
+          .text-center {
+            font-size: 24px;
+            font-weight: 500;
+          }
+        }
+      }
+
+      .section__address__map{
+          .col-md-12{
+              padding: 0;
+              img{
+                  width: 100%
+              }
+          }
+      }
+
+      .section__address__map__two{
+          .col-lg-6{
+              margin-top: 20px;
+              img{
+                  width: 100%;
+                  height: auto;
+              }
+          }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px){
+    body{
+        .section__one__main {
+            padding-left: 10px;
+            
+            .text-row {
+              padding-left: 0;
+              padding-right: 0;
+      
+              .col-md-12 {
+                h1 {
+                  font-size: 24px;
+                  font-weight: 500;
+                }
+              }
+            }
+            .section__one {
+              .col-lg-6:nth-child(1) {
+                justify-content: center;
+                padding-left: 15px;
+                padding-right: 15px;
+                font-size: 18px;
+              }
+              .col-lg-6:nth-child(2) {
+                max-width: 100%;
+                min-height: 450px;
                 margin-bottom: 30px;
+              }
             }
-        }
-    }
-    .section__address__map{
-        padding-left: 60px;
-        padding-right: 60px;
-        padding-bottom: 60px;
-        .col-md-12{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .col-md-4{
-            margin-top: 50px;
-            img{
-                height: 350px;
+          }
+          .section__two__main {
+            .row {
+              .col-lg-12 {
+                border-top: 1px solid #ccc;
+                padding: 10px;
+                padding-top: 30px;
+                font-size: 18px;
+                .list-title {
+                  font-size: 19px;
+                  text-align: justify;
+                }
+              }
             }
-        }
-    }
-    .section__address__map__two{
-        padding-bottom: 60px;
-        .col-md-4{
-            margin-top: 50px;
-            display: flex;
-            justify-content:center;
-            img{
-                width: auto;
-                height: 350px;
+          }
+          .section__three__main {
+            overflow: hidden;
+      
+            padding-right: 0;
+            .section__three {
+              .col-lg-6:nth-child(1) {
+                max-width: 100%;
+                min-height: 450px;
+              }
+              .col-lg-6:nth-child(2) {
+                justify-content: center;
+                padding-right: 25px;
+                padding-left: 15px;
+                font-size: 18px;
+      
+                .content {
+                  h4 {
+                    text-align: center;
+                    font-size: 24px;
+                  }
+                }
+                .list-title {
+                  font-size: 18px;
+                  font-weight: 500;
+                }
+              }
             }
-        }
-    }
-}
-}
+          }
 
+          .section__four__main {
+            .section__four {
+              padding-left: 20px;
+              padding-right: 20px;
+              .col-md-12 {
+                h2 {
+                  font-size: 24px;
+                }
+              }
+            }
+          }
+
+          .section__five__main {
+            .section__five {
+              .col-md-12 {
+                padding: 20px;
+                font-size: 18px;
+              }
+            }
+          }
+
+        .section__address__main {  
+            .section__address {
+                padding-left: 20px;
+                padding-right: 20px;
+                .col-md-12 {
+                  h4 {
+                    font-size: 24px;
+                  }
+                }
+              }    
+              .section__address__two {
+                margin-top: 30px;
+                padding-left: 20px;
+                padding-right: 20px;
+                font-size: 18px;
+                text-align: justify;
+        
+                .address__text {
+                  text-align: justify;
+                }
+              }
+              .section__address__text {
+                padding-left: 20px;
+                padding-right: 20px;
+                font-size: 18px;
+                .col-md-12 {
+                  .text-center {
+                    font-size: 24px;
+                    font-weight: 500;
+                  }
+                }
+              }
+              .section__address__map{
+                .col-md-12{
+                    padding: 0;
+                    img{
+                        width: 100%
+                    }
+                }
+            }
+            .section__address__map__two{
+                .col-lg-6{
+                    margin-top: 20px;
+                    img{
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+          }
+    }
+}
